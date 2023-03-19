@@ -30,4 +30,4 @@ def inference(model_inputs:dict) -> dict:
     output = {"text":result["text"]}
     os.remove("input.mp3")
     # Return the results as a dictionary
-    return {'output':output}
+    return output
