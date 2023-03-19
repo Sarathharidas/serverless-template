@@ -1,2 +1,4 @@
 sanic==22.6.2
-git+http://github.com/openai/whisper.git
+transformers
+accelerate
+git+https://github.com/openai/whisper.git 
